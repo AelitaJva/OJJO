@@ -344,6 +344,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 
 	.block__three__content {
 		padding: 60px 0;
@@ -375,6 +376,7 @@ body {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			max-width: 730px;
 			// text-align: center;
 
 			margin-bottom: 45px;
@@ -444,6 +446,8 @@ body {
 			justify-content: space-between;
 			align-items: center;
 
+			margin: 50px 0 50px 0;
+
 			.card {
 				display: flex;
 				justify-content: center;
@@ -455,9 +459,6 @@ body {
 
 				p {
 					margin-bottom: 30px;
-					
-					width: 154px;
-					height: 87px;
 
 					font-style: normal;
 					font-weight: 400;
@@ -466,7 +467,6 @@ body {
 
 					color: #fff;
 				}
-
 			}
 			.pic1 {
 				background: url(../img/back3-1.png);
@@ -477,6 +477,19 @@ body {
 			.pic3 {
 				background: url(../img/back3-3.png);
 			}
+		}
+
+		button {
+			padding: 15px 35px;
+			font-style: normal;
+			font-weight: 500;
+			font-size: 18px;
+			line-height: 21px;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			color: #ffffff;
+
+			background: #333333;
 		}
 	}
 }
