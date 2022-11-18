@@ -61,8 +61,6 @@ body {
 }
 
 // ! center
-.header__center {
-}
 
 .header__right {
 	display: flex;
@@ -333,6 +331,153 @@ body {
 	}
 	.pic6 {
 		background: url(../img/cards/pic6.png);
+	}
+}
+
+// ! Section -3
+.block__three {
+	background: url(../img/back3.png) center no-repeat;
+	background-size: cover;
+
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.block__three__content {
+		padding: 60px 0;
+		width: 100%;
+
+		text-align: center;
+
+		.title__1 {
+			margin-bottom: 15px;
+
+			font-style: normal;
+			font-weight: 400;
+			font-size: 21px;
+			line-height: 140%;
+			color: #ffffff;
+		}
+
+		.title__2 {
+			margin-bottom: 45px;
+
+			font-style: normal;
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 41px;
+			color: #ffffff;
+		}
+
+		.text {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			// text-align: center;
+
+			margin-bottom: 45px;
+
+			p {
+				font-style: normal;
+				// font-weight: 400;
+				font-size: 18px;
+				line-height: 140%;
+				color: #ffffff;
+			}
+		}
+
+		.button {
+			button {
+				padding: 15px 35px;
+
+				font-style: normal;
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 21px;
+				text-align: center;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+
+				color: #333333;
+				background: #fff;
+			}
+		}
+	}
+}
+
+// ! section -4
+
+.block__four {
+	background: #f9f9f9;
+
+	.content {
+		padding: 60px 0;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		text-align: center;
+
+		.title_1 {
+			font-style: normal;
+			font-weight: 400;
+			font-size: 21px;
+			line-height: 140%;
+			color: #333333;
+		}
+
+		.title_2 {
+			font-style: normal;
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 41px;
+			color: #333333;
+		}
+
+		.cards {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+
+			.card {
+				display: flex;
+				justify-content: center;
+				align-items: flex-end;
+				width: 350px;
+				height: 370px;
+
+				margin: 0 10px;
+
+				p {
+					margin-bottom: 30px;
+					
+					width: 154px;
+					height: 87px;
+
+					font-style: normal;
+					font-weight: 400;
+					font-size: 21px;
+					line-height: 140%;
+
+					color: #fff;
+				}
+
+			}
+			.pic1 {
+				background: url(../img/back3-1.png);
+			}
+			.pic2 {
+				background: url(../img/back3-2.png);
+			}
+			.pic3 {
+				background: url(../img/back3-3.png);
+			}
+		}
 	}
 }
 
