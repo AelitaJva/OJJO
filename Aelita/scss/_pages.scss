@@ -665,6 +665,7 @@ body {
 
 // ! footer
 .footer {
+	margin-top: auto;
 	background: #f9f9f9;
 
 	.content {
@@ -680,24 +681,116 @@ body {
 			width: 255px;
 
 			h3 {
+				padding-bottom: 8px;
+
 				font-style: normal;
 				font-weight: 500;
 				font-size: 18px;
 				line-height: 140%;
 				letter-spacing: 0.1em;
 				text-transform: uppercase;
-				color: red;
+				color: #333333;
 			}
 
 			hr {
 				border-bottom: 1px solid #333333;
 				display: block;
 			}
+
+			.footer__nav {
+				display: flex;
+				flex-direction: column;
+				padding: 20px 0;
+
+				.card__text {
+					font-style: normal;
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 150%;
+					color: #333333;
+				}
+
+				.footer__nav__pay {
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+
+					img {
+						width: 45px;
+						margin: 15px 15px 0 0;
+					}
+				}
+
+				.card__link {
+					font-style: normal;
+					font-weight: 400;
+					font-size: 14px;
+					line-height: 150%;
+					color: #333333;
+
+					margin-bottom: 15px;
+				}
+			}
+
+			.card__number {
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 150%;
+				color: #333333;
+
+				margin: 0 0 15px 0;
+			}
+
+			.pic1 {
+				background: url(../img/pay1.svg) no-repeat left;
+				padding-left: 37px;
+			}
+
+			.pic3 {
+				background: url(../img/pay3.svg) no-repeat left;
+				padding-left: 37px;
+			}
+
+			.card__text {
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 150%;
+				color: #333333;
+				margin-bottom: 18px;
+			}
+
+			.contact__icons {
+				img {
+					margin-right: 10px;
+				}
+			}
+		}
+	}
+
+	.bottom__block {
+		hr {
+			border-bottom: 1px solid #333333;
+		}
+
+		.bottom__content {
+			margin: 37px 0;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.bottom__link {
+			font-style: normal;
+			font-weight: 600;
+			font-size: 14px;
+			line-height: 150%;
+
+			text-align: right;
+			text-decoration-line: underline;
+
+			color: #333333;
 		}
 	}
 }
 
-// ! footer
-.footer {
-	margin-top: auto;
-}
