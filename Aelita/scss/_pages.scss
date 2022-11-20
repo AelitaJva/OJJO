@@ -677,8 +677,9 @@ body {
 
 		.card {
 			padding-right: 30px;
-	
-			.card h3 {
+			width: 255px;
+
+			h3 {
 				font-style: normal;
 				font-weight: 500;
 				font-size: 18px;
@@ -687,15 +688,13 @@ body {
 				text-transform: uppercase;
 				color: red;
 			}
-		
+
 			hr {
 				border-bottom: 1px solid #333333;
 				display: block;
 			}
 		}
 	}
-
-
 }
 
 // ! footer
