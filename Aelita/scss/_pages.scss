@@ -625,12 +625,16 @@ body {
 				.info__text {
 					color: #fff;
 					margin: 0 15px;
-				}
 
-				&::before {
-					background: url(../img/svh1.svg);
-					color: #fff;
+					background: url(../img/subscribe__icon.svg) no-repeat left;
+					padding-left: 37px;
+				
 				}
+			}
+
+			.info__right__border {
+				border: 1px solid #fff;
+				padding: 10px;
 			}
 
 			.info__right {
@@ -654,6 +658,7 @@ body {
 				background: #333333;
 				color: #fff;
 				text-transform: uppercase;
+				margin-left: 10px;
 			}
 		}
 	}
