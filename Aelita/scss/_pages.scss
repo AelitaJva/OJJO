@@ -628,7 +628,6 @@ body {
 
 					background: url(../img/subscribe__icon.svg) no-repeat left;
 					padding-left: 37px;
-				
 				}
 			}
 
@@ -662,6 +661,41 @@ body {
 			}
 		}
 	}
+}
+
+// ! footer
+.footer {
+	background: #f9f9f9;
+
+	.content {
+		padding: 60px 0;
+	}
+
+	.top__block {
+		display: flex;
+		justify-content: space-between;
+
+		.card {
+			padding-right: 30px;
+	
+			.card h3 {
+				font-style: normal;
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 140%;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+				color: red;
+			}
+		
+			hr {
+				border-bottom: 1px solid #333333;
+				display: block;
+			}
+		}
+	}
+
+
 }
 
 // ! footer
