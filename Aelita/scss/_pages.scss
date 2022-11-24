@@ -533,16 +533,19 @@ body {
 			display: flex;
 			flex-wrap: wrap;
 			align-items: center;
+			justify-content: center;
 
 			margin: 50px 0;
 		}
 
 		.card {
-			display: flex;
-			justify-content: center;
-			align-items: center;
+			// display: flex;
+			// justify-content: center;
+			// align-items: center;
+			// width: 100%;
 			width: 277px;
 			height: 300px;
+			cursor: pointer;
 		}
 		.pic1 {
 			background: url(../img/cards3/pic1.png) no-repeat center;
