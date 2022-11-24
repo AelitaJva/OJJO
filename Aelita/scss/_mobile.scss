@@ -36,3 +36,52 @@
 		}
 	}
 }
+
+// ! section -6
+.block__six {
+	@media (max-width: 515px) {
+		.content {
+			margin: 50px 0;
+
+			.title_1 {
+				font-size: 17px;
+			}
+
+			.title_2 {
+				font-size: 20px;
+				margin: 15px 0;
+			}
+
+			.info {
+				flex-wrap: wrap;
+
+				.info__right__border {
+					margin-top: 20px;
+					padding: 10px;
+
+					.info__right {
+						padding: 15px 17px;
+					}
+
+					form {
+						input {
+							width: 120px;
+							height: 35px;
+
+							&::placeholder {
+								padding-right: 20px;
+								font-size: 12px;
+							}
+						}
+
+						button {
+							margin-left: 12px;
+							padding: 9px 18px;
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
