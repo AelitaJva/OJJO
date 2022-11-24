@@ -1,0 +1,33 @@
+@media (max-width: 1170px ) {
+.advertisement {
+  display: none;
+}
+
+// ! section2
+.block__two {
+
+  .buttons {
+    justify-content: center;
+  }
+  
+  .button {
+    margin: 10px;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    margin: 15px;
+  }
+}
+
+// ! section-4
+.block__four {
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+}
+}

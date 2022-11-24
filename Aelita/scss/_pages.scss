@@ -225,6 +225,7 @@ body {
 		font-size: 21px;
 		line-height: 140%;
 		color: #333333;
+		text-align: center;
 	}
 
 	.title_2 {
@@ -233,6 +234,7 @@ body {
 		font-weight: 700;
 		font-size: 30px;
 		line-height: 41px;
+		text-align: center;
 	}
 
 	.buttons {
@@ -240,6 +242,7 @@ body {
 		flex-wrap: wrap;
 		justify-content: space-between;
 		margin: 57px 0;
+		width: 100%;
 
 		.button {
 			display: flex;
